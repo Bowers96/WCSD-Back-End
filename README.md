@@ -31,8 +31,8 @@ https://github.com/Bowers96/WCSD-Back-End
 | POST   | `/sign-in`             | `users#signin`    |
 | DELETE | `/sign-out/:id`        | `users#signout`   |
 | GET    | `/carts`               | `carts#index`     |
-| POST   | `/carts`               | `docs#create`     |
-| PATCH  | `/carts/:id`           | `docs#update`     |
+| POST   | `/carts`               | `carts#create`    |
+| PATCH  | `/carts/:id`           | `carts#update`    |
 | DELETE | `/carts/:id`           | `carts#destroy`   |
 
 ---
